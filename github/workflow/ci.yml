@@ -1,0 +1,44 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        service: [python-service, java-service]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        if: matrix.service == 'python-service'
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Set up Java
+        if: matrix.service == 'java-service'
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      - name: Run tests for Python
+        if: matrix.service == 'python-service'
+        run: |
+          cd python-service
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pytest -q
+
+      - name: Run tests for Java
+        if: matrix.service == 'java-service'
+        run: |
+          cd java-service
+          mvn -B -DskipTests=false test

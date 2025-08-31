@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ci-cd-devops-kubernetes.iml" filepath="$PROJECT_DIR$/ci-cd-devops-kubernetes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/python-service/python-service.iml" filepath="$PROJECT_DIR$/python-service/python-service.iml" />
     </modules>
   </component>
 </project>
