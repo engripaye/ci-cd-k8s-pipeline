@@ -1,0 +1,25 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ci-cd-ingress
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+spec:
+  rules:
+    - host: example.domain  # change this
+      http:
+        paths:
+          - path: /python
+            pathType: Prefix
+            backend:
+              service:
+                name: python-service
+                port:
+                  number: 8000
+          - path: /java
+            pathType: Prefix
+            backend:
+              service:
+                name: java-service
+                port:
+                  number: 8080
