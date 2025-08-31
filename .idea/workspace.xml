@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed809fc4-d620-4a95-839e-0e69099274f0" name="Changes" comment="init commit by ENGR. IPAYE">
-      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github/workflow/ci.yml" afterDir="false" />
-    </list>
+    <list default="true" id="ed809fc4-d620-4a95-839e-0e69099274f0" name="Changes" comment="python service code commit by ENGR. IPAYE" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +12,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,8 +39,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "go.import.settings.migrated": "true",
+    "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -41,8 +50,8 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -75,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756607859549</updated>
-      <workItem from="1756607860707" duration="446000" />
+      <workItem from="1756607860707" duration="1600000" />
     </task>
     <task id="LOCAL-00001" summary="init commit by ENGR. IPAYE">
       <option name="closed" value="true" />
@@ -85,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756607936909</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="python service code commit by ENGR. IPAYE">
+      <option name="closed" value="true" />
+      <created>1756609434789</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1756609434789</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,7 +110,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit by ENGR. IPAYE" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit by ENGR. IPAYE" />
+    <MESSAGE value="python service code commit by ENGR. IPAYE" />
+    <option name="LAST_COMMIT_MESSAGE" value="python service code commit by ENGR. IPAYE" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
